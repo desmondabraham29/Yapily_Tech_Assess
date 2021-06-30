@@ -45,7 +45,6 @@ public class ApplicationConfig {
         Storage storage = googleCloudStorage();
         byte[] content = storage.readAllBytes(blobId);
         String contentString = new String(content, UTF_8);
-        System.out.println("<<<>>>>>" + contentString + "<<<<>>>>");
         return contentString;
     }
 
@@ -56,7 +55,6 @@ public class ApplicationConfig {
         Storage storage = googleCloudStorage();
         byte[] content = storage.readAllBytes(blobId);
         String contentString = new String(content, UTF_8);
-        System.out.println("<<<>>>>>" + contentString + "<<<<>>>>");
         return contentString;
     }
 }
