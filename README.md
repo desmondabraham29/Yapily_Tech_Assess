@@ -26,4 +26,8 @@ Marvel character api service is used to retrieve list of character id's from an 
  Application secret values have been stored in GoogleCloudStorage
  Bucket-Name : marvel_project
  Api-Key Object: api_key.txt
- Hash Object : hash.txt        
+ Hash Object : hash.txt  
+ 
+ #TODO TASK
+ 1) Addition of more Unit Test cases covering the core logic 
+ 2) Java cucumber Automation tests to be added , covering the functional testing     
